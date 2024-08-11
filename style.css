@@ -25,15 +25,35 @@
 .bbody {
     background-image: url(https://wallpapers.com/images/featured/giza-pyramids-frygia9m5ggjhaz1.jpg);
     background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .dbody {
     background-image: url(https://static.vecteezy.com/system/resources/previews/027/807/580/large_2x/spooky-halloween-wallpaper-with-pumpkin-and-old-house-free-photo.jpg);
     background-image: cover;
+    background-attachment: fixed;
 }
 
 .dtext {
     color: rgb(202, 200, 200);
+}
+
+.mbody {
+    background-image: url(https://wallpapercave.com/wp/wp2763352.jpg);
+    background-image: cover;
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ibody {
+    background-image: url(https://wallpaper.forfun.com/fetch/d9/d9c6f95bc62c86ab89acc676c530b5cc.jpeg);
+    background-image: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 .image {
