@@ -17,6 +17,25 @@
     z-index: -1; /* Place the pseudo-element behind the content */
 }
 
+.img {
+    height: 250px;
+    width: auto;
+}
+
+.bbody {
+    background-image: url(https://wallpapers.com/images/featured/giza-pyramids-frygia9m5ggjhaz1.jpg);
+    background-size: cover;
+}
+
+.dbody {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/027/807/580/large_2x/spooky-halloween-wallpaper-with-pumpkin-and-old-house-free-photo.jpg);
+    background-image: cover;
+}
+
+.dtext {
+    color: rgb(202, 200, 200);
+}
+
 .image {
     height: auto;
     width: 50px;
