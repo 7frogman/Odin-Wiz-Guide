@@ -1,0 +1,43 @@
+.main {
+    background-color: rgb(230, 220, 180);
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://preview.redd.it/4tto9rk57u661.png?width=640&crop=smart&auto=webp&s=be0da9c130f561763a4faf3164ae0057d623ee38); /* leave this empty to specify your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2; /* Set the opacity of the background image */
+    z-index: -1; /* Place the pseudo-element behind the content */
+}
+
+.image {
+    height: auto;
+    width: 50px;
+}
+
+#ice {
+    color: rgb(85, 195, 240);
+}
+
+
+#death {
+    color: black;
+}
+
+
+#myth {
+    color: rgb(179, 152, 0);
+}
+
+
+#balance {
+    color: rgb(202, 100, 87);
+}
+
